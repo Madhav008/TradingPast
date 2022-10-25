@@ -2,16 +2,12 @@ const { supabase } = require("./seeder.server");
 var CronJob = require('cron').CronJob;
 var chart = require('./seeder.chart');
 const { getDays } = require("./datediff");
-/*
-var job = new CronJob(
-    '* * * * * *',
-	
-);
-*/
+
+
+
 
 
 // i want to get chart data after every 7days and not stored in the database
-
 
 async function getStocksList() {
     const { data: names, error } = await supabase.from('stocks').select('name');

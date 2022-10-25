@@ -7,11 +7,25 @@
 
 [*] Make the api that pass the stock in the script
 
+[] Store the previous chain in the supabase
+
+[] Make a function that converts 1 min data to 1 sec  
+
 [] Make a endpoint to pass it to the frontend in to make new candles
 
+[*] Make a endpoint to 5min chart 
+
+[] Make Post Request to trade in the past only for 7 days
+
+[] Make Get Request to 10 option chain for Current Price
+
+[] Make Post Request for BUY and SELL 
 
 
+=====================================================================================================
+Frontend
 
+[] Use Realtime api https://github.com/supabase/realtime 
 
 
 
